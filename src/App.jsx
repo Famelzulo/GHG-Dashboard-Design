@@ -92,7 +92,6 @@ function App() {
 
   return (
     <div className=" bg-gray-100">
-      {/* Navigation Bar */}
       <nav className="bg-emerald-100 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)]">
         <div className="max-w-3xl mx-auto py-3 text-center">
           <h1 className="text-2xl font-bold text-emerald-800">GHG Emissions Dashboard</h1>
@@ -102,7 +101,6 @@ function App() {
 
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-4 py-8 space-y-8 h-full pb-8">
-        {/* First Row - Metrics Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="bg-gray-100 rounded-xl p-6 shadow-[8px_8px_16px_#d1d9e6,-8px_-8px_16px_#ffffff]">
             <h3 className="text-lg font-medium text-gray-500">Total Emissions</h3>
@@ -142,9 +140,7 @@ function App() {
           </div>
         </div>
 
-        {/* Second Row - Charts */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 h-full max-h-100">
-          {/* Left side - Horizontal Bar Chart */}
           <div className="bg-gray-100 rounded-xl p-6 shadow-[8px_8px_16px_#d1d9e6,-8px_-8px_16px_#ffffff] h-full max-h-100">
             <HorizontalBarChart data={horizontalChartData} />
           </div>
@@ -159,7 +155,6 @@ function App() {
                 <PieChart data={pieChartData} />
               </div>
             </div>
-            {/* Bottom row - Line Chart and Employee Table */}
             <div className="grid grid-cols-2 gap-8 h-full max-h-30">
               <div className="bg-gray-100 rounded-xl p-6 shadow-[8px_8px_16px_#d1d9e6,-8px_-8px_16px_#ffffff] h-full max-h-80">
                 <LineChart data={emissionsData.coreIndicatorScenario} />
