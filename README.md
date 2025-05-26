@@ -1,70 +1,67 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Rediseño Dashboard Emisiones GHG
 
-## Available Scripts
+Este proyecto es un rediseño de un dashboard que muestra las emisiones de gases de efecto invernadero (GHG, por sus siglas en inglés: Greenhouse Gases). Fue desarrollado desde cero usando React, Chart.js y Tailwind CSS, con el objetivo de ofrecer una experiencia visualmente atractiva, clara y escalable para visualizar datos históricos y proyecciones de emisiones hasta el año 2030.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ¿Qué son las emisiones GHG?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Las emisiones de gases de efecto invernadero (GHG) son gases que contribuyen al calentamiento global y al cambio climático al atrapar el calor en la atmósfera terrestre. Entre los más comunes están el dióxido de carbono (CO₂), metano (CH₄) y óxidos de nitrógeno (NOₓ). Medir y monitorear estas emisiones es fundamental para desarrollar políticas que reduzcan el impacto ambiental.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este dashboard muestra:
 
-### `npm test`
+- Total de emisiones anuales de GHG.
+- Reducción porcentual y absoluta año contra año.
+- Emisiones por fuente y alcance (Scope 1, 2 y 3).
+- Pronósticos de emisiones y escenarios clave proyectados hasta 2030.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Datos utilizados
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Los datos que utiliza el dashboard son **datos estáticos (mock data)** creados para simular información real. Estos datos incluyen:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Emisiones desde 2021 hasta 2023 (con posibilidad de extender hasta 2030).
+- Diferentes fuentes de emisión (como transporte, electricidad, agua, etc.).
+- Escenarios que permiten visualizar tendencias y metas de reducción para los próximos años.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este enfoque facilita el desarrollo y prueba del dashboard sin depender de una API o base de datos externa.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tecnologías utilizadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React**: Para construir una interfaz modular, dinámica y reutilizable.
+- **Chart.js**: Para la creación de gráficos claros y visualmente atractivos que muestran tendencias, comparaciones y datos categorizados.
+- **Tailwind CSS**: Framework CSS basado en utilidades para diseñar una interfaz limpia, moderna y con una paleta de colores inspirada en la naturaleza (tonos verdes).
+  
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Características principales
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Diseño visual atractivo con enfoque en la temática ambiental.
+- Estructura escalable que permite incorporar más años y fuentes sin perder claridad.
+- Visualización de indicadores clave y pronósticos de emisiones hasta el 2030.
+- Buenas prácticas de accesibilidad (contraste, etiquetas semánticas, navegación por teclado).
+- Proyecto modular y mantenible con componentes React bien organizados.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Instalación y ejecución local
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para ejecutar este proyecto localmente, sigue los siguientes pasos:
 
-### Code Splitting
+1. Descarga o clona este repositorio en tu máquina.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Abre una terminal dentro de la carpeta raíz del proyecto.
 
-### Analyzing the Bundle Size
+3. Instala las dependencias:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   npm install
 
-### Making a Progressive Web App
+4. Corre npm run dev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   Finalmente podras visualizar el dashboard en tu localhost
+>>>>>>> e264a4b4a25d91d25b8e402b35a49d5c097ea64a
