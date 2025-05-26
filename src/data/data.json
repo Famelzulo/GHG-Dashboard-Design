@@ -1,0 +1,96 @@
+{
+  "emissionsBySource": {
+    "2022": {
+      "Electricity": 450,
+      "Natural Gas": 320,
+      "Transportation": 580,
+      "Waste Management": 170,
+      "Industrial Processes": 380,
+      "Agriculture": 270,
+      "Refrigerants": 80,
+      "Fugitive Emissions": 135,
+      "Water Treatment": 120,
+      "Construction": 210,
+      "Office Operations": 95,
+      "Data Centers": 180,
+      "Fleet Vehicles": 145,
+      "Heating Systems": 160
+    },
+    "2023": {
+      "Electricity": 420,
+      "Natural Gas": 310,
+      "Transportation": 545,
+      "Waste Management": 160,
+      "Industrial Processes": 365,
+      "Agriculture": 260,
+      "Refrigerants": 75,
+      "Fugitive Emissions": 130,
+      "Water Treatment": 115,
+      "Construction": 200,
+      "Office Operations": 90,
+      "Data Centers": 170,
+      "Fleet Vehicles": 140,
+      "Heating Systems": 155
+    }
+  },
+  "totalEmissions": {
+    "value": 12940000,
+    "reduced": true
+  },
+  "ghgPerformance": {
+    "value": 0.962,
+    "reduced": false
+  },
+  "coreIndicatorPerformance": {
+    "value": 0.945,
+    "reduced": true
+  },
+  "ghgPerformanceValues": {
+    "value": 0.89,
+    "reduced": false
+  },
+  "ghgEmissionsPerformance": {
+    "2022": 0.22,
+    "2023": 0.95,
+    "2024": 0.27,
+    "2025": 1.0
+  },
+  "totalEmissionsByScope": {
+    "Scope 1": 4500000,
+    "Scope 2": 3800000,
+    "Scope 3": 4640000
+  },
+  "coreIndicatorScenario": {
+    "2020": 12,
+    "2021": 14,
+    "2022": 16,
+    "2023": 18,
+    "2024": 20,
+    "2025": 22,
+    "2026": 24,
+    "2027": 25,
+    "2028": 26,
+    "2029": 28,
+    "2030": 30
+  },
+  "employeeData": {
+    "2022": {
+      "totalEmployees": 1320,
+      "activeEmployees": 1280,
+      "newHires": 200,
+      "departures": 150
+    },
+    "2023": {
+      "totalEmployees": 1400,
+      "activeEmployees": 1350,
+      "newHires": 220,
+      "departures": 170
+    },
+    "2024": {
+      "totalEmployees": 1450,
+      "activeEmployees": 1400,
+      "newHires": 180,
+      "departures": 150
+    }
+  }
+} 
